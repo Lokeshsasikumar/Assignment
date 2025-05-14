@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.2.2 (Python 3.13.3 on win32)" generated="2025-05-14T16:37:11.893012" rpa="false" schemaversion="5">
+<suite id="s1" name="Suites">
+<suite id="s1-s1" name="UserDefinedKeyword" source="E:\RoboFramework\TestSuite\UserDefinedKeyword.robot">
+<test id="s1-s1-t1" name="FirstTestCase" line="8">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>This is my first robot testcase</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-05-14T16:37:12.707695" elapsed="0.000728"/>
+</kw>
+<kw name="Login">
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-05-14T16:37:12.710113" level="INFO">Enter the Username</msg>
+<arg>Enter the Username</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-05-14T16:37:12.709778" elapsed="0.000492"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-05-14T16:37:12.710853" level="INFO">Enter the Password</msg>
+<arg>Enter the Password</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-05-14T16:37:12.710559" elapsed="0.000430"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-05-14T16:37:12.711551" level="INFO">Press Login Button</msg>
+<arg>Press Login Button</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-05-14T16:37:12.711262" elapsed="0.000419"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-05-14T16:37:12.712241" level="INFO">Select the Product</msg>
+<arg>Select the Product</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-05-14T16:37:12.711954" elapsed="0.000416"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-05-14T16:37:12.712947" level="INFO">Complete the payment....</msg>
+<arg>Complete the payment....</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-05-14T16:37:12.712648" elapsed="0.000427"/>
+</kw>
+<status status="PASS" start="2025-05-14T16:37:12.709038" elapsed="0.004255"/>
+</kw>
+<status status="PASS" start="2025-05-14T16:37:12.704612" elapsed="0.008967"/>
+</test>
+<status status="PASS" start="2025-05-14T16:37:11.994457" elapsed="0.720217"/>
+</suite>
+<status status="PASS" start="2025-05-14T16:37:11.951947" elapsed="0.764461"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Suites" id="s1" pass="1" fail="0" skip="0">Suites</stat>
+<stat name="UserDefinedKeyword" id="s1-s1" pass="1" fail="0" skip="0">Suites.UserDefinedKeyword</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

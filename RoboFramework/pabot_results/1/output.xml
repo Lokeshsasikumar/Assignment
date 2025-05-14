@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.2.2 (Python 3.13.3 on win32)" generated="2025-05-14T16:37:12.045318" rpa="false" schemaversion="5">
+<suite id="s1" name="Suites">
+<suite id="s1-s1" name="UDKTestSuite" source="E:\RoboFramework\TestSuite\UDKTestSuite.robot">
+<test id="s1-s1-t1" name="FirstTestCase" line="8">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>This is my first robot testcase</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-05-14T16:37:12.779202" elapsed="0.000658"/>
+</kw>
+<kw name="Login" owner="Keyword">
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-05-14T16:37:12.781609" level="INFO">Enter the Username</msg>
+<arg>Enter the Username</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-05-14T16:37:12.781216" elapsed="0.000553"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-05-14T16:37:12.782427" level="INFO">Enter the Password</msg>
+<arg>Enter the Password</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-05-14T16:37:12.782087" elapsed="0.000467"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-05-14T16:37:12.783137" level="INFO">Press Login Button</msg>
+<arg>Press Login Button</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-05-14T16:37:12.782829" elapsed="0.000431"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-05-14T16:37:12.783919" level="INFO">Select the Product</msg>
+<arg>Select the Product</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-05-14T16:37:12.783580" elapsed="0.000461"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-05-14T16:37:12.784606" level="INFO">Complete the payment....</msg>
+<arg>Complete the payment....</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-05-14T16:37:12.784320" elapsed="0.000403"/>
+</kw>
+<status status="PASS" start="2025-05-14T16:37:12.780439" elapsed="0.004482"/>
+</kw>
+<tag>login</tag>
+<status status="PASS" start="2025-05-14T16:37:12.776490" elapsed="0.008723"/>
+</test>
+<status status="PASS" start="2025-05-14T16:37:12.155192" elapsed="0.630999"/>
+</suite>
+<status status="PASS" start="2025-05-14T16:37:12.115500" elapsed="0.672416"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="1" fail="0" skip="0">login</stat>
+</tag>
+<suite>
+<stat name="Suites" id="s1" pass="1" fail="0" skip="0">Suites</stat>
+<stat name="UDKTestSuite" id="s1-s1" pass="1" fail="0" skip="0">Suites.UDKTestSuite</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

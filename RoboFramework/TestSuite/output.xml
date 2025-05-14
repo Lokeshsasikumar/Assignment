@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.2.2 (Python 3.13.3 on win32)" generated="2025-05-14T15:09:43.079323" rpa="false" schemaversion="5">
+<suite id="s1" name="userDefinedKeyword" source="E:\RoboFramework\TestSuite\userDefinedKeyword.robot">
+<test id="s1-t1" name="FirstTestCase" line="8">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>This is my first robot testcase</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-05-14T15:09:43.601833" elapsed="0.000433"/>
+</kw>
+<kw name="Login">
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-05-14T15:09:43.603438" level="INFO">Enter the Username</msg>
+<arg>Enter the Username</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-05-14T15:09:43.603270" elapsed="0.000256"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-05-14T15:09:43.603836" level="INFO">Enter the Password</msg>
+<arg>Enter the Password</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-05-14T15:09:43.603698" elapsed="0.000209"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-05-14T15:09:43.604176" level="INFO">Press Login Button</msg>
+<arg>Press Login Button</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-05-14T15:09:43.604053" elapsed="0.000194"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-05-14T15:09:43.604513" level="INFO">Select the Product</msg>
+<arg>Select the Product</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-05-14T15:09:43.604392" elapsed="0.000191"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-05-14T15:09:43.604855" level="INFO">Complete the payment....</msg>
+<arg>Complete the payment....</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-05-14T15:09:43.604731" elapsed="0.000190"/>
+</kw>
+<status status="PASS" start="2025-05-14T15:09:43.602860" elapsed="0.002170"/>
+</kw>
+<status status="PASS" start="2025-05-14T15:09:43.600263" elapsed="0.005061"/>
+</test>
+<status status="PASS" start="2025-05-14T15:09:43.082298" elapsed="0.524153"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="userDefinedKeyword" id="s1" pass="1" fail="0" skip="0">userDefinedKeyword</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2025-05-14T15:09:43.071230" level="WARN">Error in file 'E:\RoboFramework\TestSuite\userDefinedKeyword.robot' on line 1: Singular section headers like '*** Setting ***' are deprecated. Use plural format like '*** Settings ***' instead.</msg>
+</errors>
+</robot>

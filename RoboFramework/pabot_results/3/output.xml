@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.2.2 (Python 3.13.3 on win32)" generated="2025-05-14T16:37:12.036034" rpa="false" schemaversion="5">
+<suite id="s1" name="Suites">
+<suite id="s1-s1" name="Variables" source="E:\RoboFramework\TestSuite\Variables.robot">
+<test id="s1-s1-t1" name="Variable TestCases" line="10">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${name}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-05-14T16:37:12.148481" elapsed="0.000753"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${age}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-05-14T16:37:12.149611" elapsed="0.000499"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>@{list}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-05-14T16:37:12.150376" elapsed="0.000440"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>&amp;{DictVariable}{username}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-05-14T16:37:12.151054" elapsed="0.000555"/>
+</kw>
+<status status="PASS" start="2025-05-14T16:37:12.145885" elapsed="0.006010"/>
+</test>
+<status status="PASS" start="2025-05-14T16:37:12.141687" elapsed="0.011335"/>
+</suite>
+<status status="PASS" start="2025-05-14T16:37:12.100563" elapsed="0.053882"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Suites" id="s1" pass="1" fail="0" skip="0">Suites</stat>
+<stat name="Variables" id="s1-s1" pass="1" fail="0" skip="0">Suites.Variables</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

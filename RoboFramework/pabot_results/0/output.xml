@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.2.2 (Python 3.13.3 on win32)" generated="2025-05-14T16:37:12.095078" rpa="false" schemaversion="5">
+<suite id="s1" name="Suites">
+<suite id="s1-s1" name="Test1" source="E:\RoboFramework\TestSuite\test1.robot">
+<test id="s1-s1-t1" name="FirstTestCase" line="8">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>This is my first robot testcase</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-05-14T16:37:12.791099" elapsed="0.000630"/>
+</kw>
+<tag>login</tag>
+<status status="PASS" start="2025-05-14T16:37:12.788982" elapsed="0.003032"/>
+</test>
+<status status="PASS" start="2025-05-14T16:37:12.208123" elapsed="0.584638"/>
+</suite>
+<status status="PASS" start="2025-05-14T16:37:12.160671" elapsed="0.633669"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="1" fail="0" skip="0">login</stat>
+</tag>
+<suite>
+<stat name="Suites" id="s1" pass="1" fail="0" skip="0">Suites</stat>
+<stat name="Test1" id="s1-s1" pass="1" fail="0" skip="0">Suites.Test1</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

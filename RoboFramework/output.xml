@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Rebot 7.2.2 (Python 3.13.3 on win32)" generated="2025-05-14T16:37:13.196126" rpa="false" schemaversion="5">
+<suite id="s1" name="Suites">
+<suite id="s1-s1" name="Test1" source="E:\RoboFramework\TestSuite\test1.robot">
+<test id="s1-s1-t1" name="FirstTestCase" line="8">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>This is my first robot testcase</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-05-14T16:37:12.791099" elapsed="0.000630"/>
+</kw>
+<tag>login</tag>
+<status status="PASS" start="2025-05-14T16:37:12.788982" elapsed="0.003032"/>
+</test>
+<status status="PASS" start="2025-05-14T16:37:12.208000" elapsed="0.003000"/>
+</suite>
+<suite id="s1-s2" name="UDKTestSuite" source="E:\RoboFramework\TestSuite\UDKTestSuite.robot">
+<test id="s1-s2-t1" name="FirstTestCase" line="8">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>This is my first robot testcase</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-05-14T16:37:12.779202" elapsed="0.000658"/>
+</kw>
+<kw name="Login" owner="Keyword">
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-05-14T16:37:12.781609" level="INFO">Enter the Username</msg>
+<arg>Enter the Username</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-05-14T16:37:12.781216" elapsed="0.000553"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-05-14T16:37:12.782427" level="INFO">Enter the Password</msg>
+<arg>Enter the Password</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-05-14T16:37:12.782087" elapsed="0.000467"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-05-14T16:37:12.783137" level="INFO">Press Login Button</msg>
+<arg>Press Login Button</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-05-14T16:37:12.782829" elapsed="0.000431"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-05-14T16:37:12.783919" level="INFO">Select the Product</msg>
+<arg>Select the Product</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-05-14T16:37:12.783580" elapsed="0.000461"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-05-14T16:37:12.784606" level="INFO">Complete the payment....</msg>
+<arg>Complete the payment....</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-05-14T16:37:12.784320" elapsed="0.000403"/>
+</kw>
+<status status="PASS" start="2025-05-14T16:37:12.780439" elapsed="0.004482"/>
+</kw>
+<tag>login</tag>
+<status status="PASS" start="2025-05-14T16:37:12.776490" elapsed="0.008723"/>
+</test>
+<status status="PASS" start="2025-05-14T16:37:12.155192" elapsed="0.630999"/>
+</suite>
+<suite id="s1-s3" name="UserDefinedKeyword" source="E:\RoboFramework\TestSuite\UserDefinedKeyword.robot">
+<test id="s1-s3-t1" name="FirstTestCase" line="8">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>This is my first robot testcase</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-05-14T16:37:12.707695" elapsed="0.000728"/>
+</kw>
+<kw name="Login">
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-05-14T16:37:12.710113" level="INFO">Enter the Username</msg>
+<arg>Enter the Username</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-05-14T16:37:12.709778" elapsed="0.000492"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-05-14T16:37:12.710853" level="INFO">Enter the Password</msg>
+<arg>Enter the Password</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-05-14T16:37:12.710559" elapsed="0.000430"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-05-14T16:37:12.711551" level="INFO">Press Login Button</msg>
+<arg>Press Login Button</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-05-14T16:37:12.711262" elapsed="0.000419"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-05-14T16:37:12.712241" level="INFO">Select the Product</msg>
+<arg>Select the Product</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-05-14T16:37:12.711954" elapsed="0.000416"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-05-14T16:37:12.712947" level="INFO">Complete the payment....</msg>
+<arg>Complete the payment....</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-05-14T16:37:12.712648" elapsed="0.000427"/>
+</kw>
+<status status="PASS" start="2025-05-14T16:37:12.709038" elapsed="0.004255"/>
+</kw>
+<status status="PASS" start="2025-05-14T16:37:12.704612" elapsed="0.008967"/>
+</test>
+<status status="PASS" start="2025-05-14T16:37:11.994457" elapsed="0.720217"/>
+</suite>
+<suite id="s1-s4" name="Variables" source="E:\RoboFramework\TestSuite\Variables.robot">
+<test id="s1-s4-t1" name="Variable TestCases" line="10">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${name}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-05-14T16:37:12.148481" elapsed="0.000753"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${age}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-05-14T16:37:12.149611" elapsed="0.000499"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>@{list}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-05-14T16:37:12.150376" elapsed="0.000440"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>&amp;{DictVariable}{username}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-05-14T16:37:12.151054" elapsed="0.000555"/>
+</kw>
+<status status="PASS" start="2025-05-14T16:37:12.145885" elapsed="0.006010"/>
+</test>
+<status status="PASS" start="2025-05-14T16:37:12.141687" elapsed="0.011335"/>
+</suite>
+<doc>[https://pabot.org/?ref=log|Pabot] result from 4 executions.</doc>
+<status status="PASS" start="2025-05-14T16:37:11.951000" elapsed="0.836000"/>
+</suite>
+<statistics>
+<total>
+<stat pass="4" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="2" fail="0" skip="0">login</stat>
+</tag>
+<suite>
+<stat name="Suites" id="s1" pass="4" fail="0" skip="0">Suites</stat>
+<stat name="Test1" id="s1-s1" pass="1" fail="0" skip="0">Suites.Test1</stat>
+<stat name="UDKTestSuite" id="s1-s2" pass="1" fail="0" skip="0">Suites.UDKTestSuite</stat>
+<stat name="UserDefinedKeyword" id="s1-s3" pass="1" fail="0" skip="0">Suites.UserDefinedKeyword</stat>
+<stat name="Variables" id="s1-s4" pass="1" fail="0" skip="0">Suites.Variables</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
